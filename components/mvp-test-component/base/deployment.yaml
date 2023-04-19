@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: mvp-test-component
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:a3d44fc36354100bf248478522ce984dd74c8c5103f55875ea2d0578420c893d
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
